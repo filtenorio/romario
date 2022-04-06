@@ -1,0 +1,24 @@
+{
+  "name": "excuses",
+  "version": "1.0.0",
+  "description": "Excuses API",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/primeTanM/Excuser.git"
+  },
+  "author": "Tanmay and Kaustubh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/primeTanM/Excuser/issues"
+  },
+  "homepage": "https://github.com/primeTanM/Excuser#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15"
+  }
+}
