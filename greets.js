@@ -93,6 +93,7 @@ module.exports = [
                id:17,
                greet:"BOM DIA MEUS CORRETORES DE PESSOAS FILAUCIOSAS",
                category:"original",
+            },
 // Custom
             {
                 id:18,
