@@ -88,9 +88,14 @@ module.exports = [
                 greet:"BOM DIA QUERIDAS PESSOAS DOTADAS DE OSFRESIA",
                 category:"original",
             },
+            
+            {
+               id:17,
+               greet:"BOM DIA MEUS CORRETORES DE PESSOAS FILAUCIOSAS",
+               category:"original"
 // Custom
             {
-                id:17,
+                id:18,
                 greet:"BOM DIA MEUS SERES DOTADOS DE APANÁGIOS",
                 category:"custom",
             },
