@@ -159,7 +159,7 @@ const generate = () => {
     const verb = draw(verbs);
     let word = draw(words);
     const role = makeRole(verbs[verb]);
-    return `${goodMorning} ${role} de ${words[word]}s`
+    return `[{"greet": "${goodMorning} ${role} de ${words[word]}s","category":"generated"}]`
 };
 return(generate());
     }

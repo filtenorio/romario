@@ -40,7 +40,7 @@ app.get("/v1/greet/:category/:num(\\d+)?", function (req, res, next) {
 });
 
 // generate a random greet
-app.get("/v1/greet/generate", function (req, res, next) {
+app.get("/v1/generate", function (req, res) {
   res.send(greetsRepository.generateGreet());
 });
 

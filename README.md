@@ -10,8 +10,8 @@ Documentation:
 
 Categories Available:
     
-    - Originals (id range 1-16) 
-    - Custom (id range 17-)
+    - Originals (id range 1-30) 
+    - Custom (id range 30-50)
 
 Usage:
 
@@ -38,7 +38,12 @@ Usage:
   - Get n random excuses for a specific category
         
         https://romariator.herokuapp.com/v1/greets/original/4
+
+  - Generate a random greet using Romario's Generator (Thank You Gabz)
         
+        https://romariator.herokuapp.com/v1/generate		
+        
+		 
 PS: Any doubts about the words here mentioned, just take a look at GLOMARIO!
         
     
