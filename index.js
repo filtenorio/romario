@@ -39,6 +39,10 @@ app.get("/v1/greet/:category/:num(\\d+)?", function (req, res, next) {
   res.send(greetsRepository.getByCategory(req.params.category, req.params.num || 1));
 });
 
+// generate a random greet
+app.get("/v1/greet/generate", function (req, res, next) {
+  res.send(greetsRepository.generateGreet());
+});
 
 app.listen(port, function () {
   console.log(`Server running on http://localhost:${port}`);
