@@ -47,7 +47,7 @@ module.exports = {
         return out;
     },
 	
-	generate: function generateGreet() {
+	generateGreet: function generateGreet() {
 	const words = [
     'Agnóstico', 
     'Alvíssaras',
@@ -153,7 +153,7 @@ const makeRole = word => {
     if (word[word.length] === 'a') {
         return '${word}dores';
     } 
-    return '${word.slice(0, word.length - 1)}adores'
+    return `${word.slice(0, word.length - 1)}adores`
 };
 const generate = () => {
     const verb = draw(verbs);
@@ -163,5 +163,4 @@ const generate = () => {
 };
 return(generate());
     }
-        
 }
