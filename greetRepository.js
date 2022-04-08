@@ -47,7 +47,7 @@ module.exports = {
         return out;
     },
 	
-	generateGreet: function generateGreet() {
+	generate: function generateGreet() {
 	const words = [
     'Agnóstico', 
     'Alvíssaras',
