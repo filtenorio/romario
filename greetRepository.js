@@ -45,6 +45,123 @@ module.exports = {
         }
         
         return out;
+    },
+	
+	generateGreet: function generateGreet() {
+	const words = [
+    'Agnóstico', 
+    'Alvíssaras',
+    'Balaústre',
+    'Beneplácito',
+    'Cornucópia',
+    'Cuntatório',
+    'Deletério',
+    'Desasnado',
+    'Empedernido',
+    'Filantropo',
+    'Filaucioso',
+    'Hebdomadário',
+    'Horrípilo',
+    'Iconoclasta',
+    'Idiossincrasia',
+    'Inócuo',
+    'Juvenilizante',
+    'Kafkaesco',
+    'Lancinante',
+    'Loquaz',
+    'Mendacioso',
+    'Modorrento',
+    'Numismática',
+    'Odiento',
+    'Ósculo',
+    'Prognóstico',
+    'Putrefato',
+    'Quimera',
+    'Quintessância',
+    'Recôndito',
+    'Rufião',
+    'Sectário',
+    'Sumidade',
+    'Taciturno',
+    'Ufanismo',
+    'Urdidura',
+    'Verossimilhança',
+    'Vicissitude',
+    'Vitupério',
+    'Warrantagem',
+    'Xaropear',
+    'Xifópago',
+    'Yanomami',
+    'Zaragatoa',
+    'Zeugma',
+    'Zoomórfico',
+	];
+	const verbs = [
+    'Agnóstico', 
+    'Alvíssaras',
+    'Balaústre',
+    'Beneplácito',
+    'Cornucópia',
+    'Cuntatório',
+    'Deletério',
+    'Desasnado',
+    'Empedernido',
+    'Filantropo',
+    'Filaucioso',
+    'Graçolar',
+    'Hebdomadário',
+    'Horrípilo',
+    'Iconoclasta',
+    'Idiossincrasia',
+    'Inócuo',
+    'Juvenilizante',
+    'Kafkaesco',
+    'Lancinante',
+    'Loquaz',
+    'Mendacioso',
+    'Modorrento',
+    'Nitidificar',
+    'Numismática',
+    'Odiento',
+    'Ósculo',
+    'Prognóstico',
+    'Putrefato',
+    'Quimera',
+    'Quintessância',
+    'Recôndito',
+    'Rufião',
+    'Sectário',
+    'Sumidade',
+    'Taciturno',
+    'Tergiversar',
+    'Ufanismo',
+    'Urdidura',
+    'Verossimilhança',
+    'Vicissitude',
+    'Vitupério',
+    'Warrantagem',
+    'Xaropear',
+    'Xifópago',
+    'Yanomami',
+    'Zaragatoa',
+    'Zeugma',
+    'Zoomórfico',
+	];
+const goodMorning = 'Bom dia meus';
+const draw = (terms) => Math.floor(Math.random() * terms.length);
+const makeRole = word => {
+    if (word[word.length] === 'a') {
+        return '${word}dores';
+    } 
+    return '${word.slice(0, word.length - 1)}adores'
+};
+const generate = () => {
+    const verb = draw(verbs);
+    let word = draw(words);
+    const role = makeRole(verbs[verb]);
+    return `${goodMorning} ${role} de ${words[word]}s`
+};
+return(generate());
     }
         
 }
