@@ -110,42 +110,43 @@ module.exports = [
                 greet:"BOM DIA MEUS SERES DOTADOS DE APANÁGIOS",
                 category:"custom",
             },
-  {
+			{
                 id:31,
                 greet:"BOM DIA MEUS IDIOSSINCRASIADORES DE CUNTATÓRIOS",
                 category:"custom",
             },
-  {
+			{
                 id:32,
                 greet:"BOM DIA MEUS FILAUCIOSADORES DE CUNTATÓRIOS",
                 category:"custom",
             },			
-  {
-                id:33,
+			{
+				id:33,
                 greet:"BOM DIA MEUS CORNUCÓPIADORES DE SECTÁRIOS",
                 category:"custom",
             },			
-  {
+			{
                 id:34,
                 greet:"BOM DIA MEUS PUTREFATADORES DE ÓSCULOS",
                 category:"custom",
             
 			},				
-  {
+			{
                 id:35,
                 greet:"BOM DIA MEUS GRAÇOLADORES DE AGNÓSTICOS",
                 category:"custom",
             },				
-  {
+			{
                 id:36,
                 greet:"BOM DIA MEUS RUFIADORES DE FILAUCIOSOS",
                 category:"custom",
             },	
-  {
+			{
                 id:37,
                 greet:"BOM DIA MEUS VICISSITUDADORES DE ALVÍSSARAS",
                 category:"custom",
-            },				
+            },
+			{
                 id:38,
                 greet:"BOM DIA MEUS LOQUADORES DE ALVÍSSARASS",
                 category:"custom",
